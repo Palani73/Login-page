@@ -15,4 +15,6 @@ spec:
       containers:
       - name: login
         image: palanidocker77/login_page
+        ports:
+        - containerPort: 3000
     
