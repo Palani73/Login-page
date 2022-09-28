@@ -1,2 +1,3 @@
-FROM httpd:2.4
-COPY ./index.html/ /usr/local/apache2/htdocs/
+FROM hshar/webapp
+RUN rm /var/www/html/*
+ADD ./index.html /var/www/html
